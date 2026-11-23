@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" width="640" height="420" role="img" aria-label="Frogie — 3D action-platformer · 100 levels · bosses">
+<style>.s{font-family:system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif} .m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}</style>
+<defs><clipPath id="c"><rect width="640" height="420" rx="16"/></clipPath>
+<linearGradient id="fade" x1="0" y1="0" x2="0" y2="1"><stop offset=".3" stop-color="#050807" stop-opacity="0"/><stop offset=".68" stop-color="#050807" stop-opacity=".92"/><stop offset="1" stop-color="#050807"/></linearGradient></defs>
+<g clip-path="url(#c)">
+<rect width="640" height="420" fill="#050807"/>
+<svg viewBox="0 0 1200 675" x="0" y="0" width="640" height="360" preserveAspectRatio="xMidYMid slice"><defs><linearGradient id='g' x1='0' y1='0' x2='0' y2='1'><stop offset='0' stop-color='#0e3b2a'/><stop offset='1' stop-color='#05140d'/></linearGradient></defs><rect width='1200' height='675' fill='#05140d'/><rect width='1200' height='675' fill='url(#g)'/><ellipse cx='180' cy='560' rx='120' ry='50' fill='#1f6b43' opacity='0.9'/><ellipse cx='480' cy='610' rx='90' ry='38' fill='#1f6b43' opacity='0.7'/><ellipse cx='960' cy='580' rx='140' ry='59' fill='#1f6b43' opacity='0.85'/><ellipse cx='1110' cy='470' rx='70' ry='29' fill='#1f6b43' opacity='0.6'/><ellipse cx='90' cy='430' rx='60' ry='25' fill='#1f6b43' opacity='0.5'/><circle cx='240' cy='160' r='7' fill='#e8f2ec' opacity='.8'/><circle cx='930' cy='120' r='7' fill='#e8f2ec' opacity='.8'/><circle cx='1040' cy='250' r='7' fill='#e8f2ec' opacity='.8'/><circle cx='330' cy='270' r='7' fill='#e8f2ec' opacity='.8'/><g transform='translate(600 380)'><ellipse cx='0' cy='60' rx='210' ry='120' fill='#39ff88'/><ellipse cx='0' cy='80' rx='150' ry='80' fill='#b6ffd2'/><circle cx='-110' cy='-40' r='70' fill='#39ff88'/><circle cx='110' cy='-40' r='70' fill='#39ff88'/><circle cx='-110' cy='-40' r='42' fill='#fff'/><circle cx='110' cy='-40' r='42' fill='#fff'/><circle cx='-100' cy='-36' r='22' fill='#05140d'/><circle cx='120' cy='-36' r='22' fill='#05140d'/><path d='M-70 50 Q0 100 70 50' fill='none' stroke='#05140d' stroke-width='12' stroke-linecap='round'/></g></svg>
+
+<rect width="640" height="360" fill="url(#fade)"/>
+<rect x="28" y="24" width="96" height="28" rx="14" fill="#050807" fill-opacity=".85" stroke="#39ff88"/>
+<text x="40" y="43" class="m" font-size="14" fill="#39ff88">PLAYABLE</text>
+<text x="28" y="290" class="s" font-size="38" font-weight="750" fill="#e8f2ec">Frogie</text>
+<text x="28" y="328" class="s" font-size="18" fill="#cbdcd2">3D action-platformer · 100 levels · bosses</text>
+<rect x="28" y="372" width="86" height="26" rx="6" fill="#0b1611" stroke="#1a3326"/><text x="35" y="390" class="m" font-size="14" fill="#a3b8ab">Three.js</text><rect x="122" y="372" width="95" height="26" rx="6" fill="#0b1611" stroke="#1a3326"/><text x="129" y="390" class="m" font-size="14" fill="#a3b8ab">Capacitor</text><rect x="225" y="372" width="77" height="26" rx="6" fill="#0b1611" stroke="#1a3326"/><text x="232" y="390" class="m" font-size="14" fill="#a3b8ab">Android</text>
+<rect x=".5" y=".5" width="639" height="419" rx="16" fill="none" stroke="#1a3326"/>
+</g>
+</svg>

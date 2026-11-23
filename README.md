@@ -1,38 +1,67 @@
-# Runia0
+<a href="https://runia0.github.io/runia0-site/">
+  <img src="assets/banner.svg" alt="Runia0 — Ideas into things that work. Independent by nature. Built through code." width="100%">
+</a>
 
-**Ideas into things that work.**
-*Independent by nature. Built through code.*
+<p align="center">
+  <b>Berat Çetin</b> — Founder &amp; Independent Developer at Runia0<br>
+  <sub>Software Development · Artificial Intelligence · Game Development · Digital Products</sub>
+</p>
 
-I'm **Berat Çetin** — Founder & Independent Developer at Runia0.
-Software Development · Artificial Intelligence · Game Development · Digital Products.
+<p align="center">
+  <a href="https://runia0.github.io/runia0-site/"><b>🌐 Portfolio</b></a> &nbsp;·&nbsp;
+  <a href="https://runia0.github.io/runia0-site/en/"><b>English</b></a> &nbsp;·&nbsp;
+  <a href="https://runia0.github.io/runia0-site/projeler.html"><b>Projeler</b></a> &nbsp;·&nbsp;
+  <a href="https://runia0.github.io/runia0-site/en/projects.html"><b>All projects</b></a>
+</p>
 
-🌐 **Portfolio:** [runia0.github.io/runia0-site](https://runia0.github.io/runia0-site/) · [English](https://runia0.github.io/runia0-site/en/)
+<img src="assets/divider.svg" alt="" width="100%">
 
----
+## 🎮 Games
 
-### 🎮 Games
+<table>
+  <tr>
+    <td width="50%"><a href="https://runia0.github.io/runia0-site/en/projects/frogie.html"><img src="assets/card-frogie.svg" alt="Frogie — 3D action-platformer with 100 levels and boss fights. Playable." width="100%"></a></td>
+    <td width="50%"><a href="https://runia0.github.io/runia0-site/en/projects/shadow-protocol.html"><img src="assets/card-shadow-protocol.svg" alt="Shadow Protocol — story-driven 3D sniper game with 5 missions. Playable." width="100%"></a></td>
+  </tr>
+  <tr>
+    <td width="50%"><a href="https://runia0.github.io/runia0-site/en/projects/sokaklarin-kanunu.html"><img src="assets/card-sokaklarin-kanunu.svg" alt="Sokakların Kanunu — original crime drama set in Adana with 3 endings. Playable." width="100%"></a></td>
+    <td width="50%"><a href="https://runia0.github.io/runia0-site/en/projects/night-shift.html"><img src="assets/card-night-shift.svg" alt="NIGHT SHIFT — gas station management with psychological horror. Early development." width="100%"></a></td>
+  </tr>
+</table>
+
+## 🧩 Apps & experiments
+
+<table>
+  <tr>
+    <td width="50%"><a href="https://runia0.github.io/runia0-site/en/projects/iplik.html"><img src="assets/card-iplik.svg" alt="İplik — Turkish quotes and proverbs app for Android. Pre-release." width="100%"></a></td>
+    <td width="50%"><a href="https://runia0.github.io/runia0-site/en/projects/hicaz-studyosu.html"><img src="assets/card-hicaz-studyosu.svg" alt="Hicaz Studio — one melody in eight Hicaz scales. Experiment." width="100%"></a></td>
+  </tr>
+</table>
+
+<details>
+<summary><b>More projects</b> — tools, AI experiments and concepts</summary>
+<br>
 
 | Project | What it is | Status |
 |---|---|---|
-| [**Frogie**](https://runia0.github.io/runia0-site/en/projects/frogie.html) | 3D action-platformer: 100 levels, 5 biomes, boss fights | Playable · pre-release |
-| [**Shadow Protocol**](https://runia0.github.io/runia0-site/en/projects/shadow-protocol.html) | Story-driven 3D sniper game with ballistics and 5 missions | Playable prototype |
-| [**Sokakların Kanunu**](https://runia0.github.io/runia0-site/en/projects/sokaklarin-kanunu.html) | Original 3D crime drama set in Adana, 3 endings | Playable prototype |
-| [**NIGHT SHIFT: Son Vardiya**](https://runia0.github.io/runia0-site/en/projects/night-shift.html) | Gas station management + psychological horror | Early development |
+| [MATLAB Teaching Tool](https://runia0.github.io/runia0-site/en/projects/matlab-ogretim.html) | Teaches MATLAB basics with wrong vs. right examples | Working · private use |
+| [Match Data Analysis Tool](https://runia0.github.io/runia0-site/en/projects/mac-analiz.html) | Desktop app for football match data | Prototype |
+| [G-LINE AI](https://runia0.github.io/runia0-site/en/projects/g-line-ai.html) | Assistant combining several AI services and voice | Experiment |
+| [Smart Home Assistant](https://runia0.github.io/runia0-site/en/projects/akilli-ev.html) | Home Assistant + AI on Raspberry Pi 5 | Prototype |
+| [Create&Rate (Roblox)](https://runia0.github.io/runia0-site/en/projects/create-and-rate.html) | Gameplay scripting in a Roblox team project | In development |
+| [runia0-site](https://github.com/Runia0/runia0-site) | This studio's portfolio — static, bilingual, no tracking | Live |
 
-### 🧩 Apps & tools
+</details>
 
-| Project | What it is | Status |
-|---|---|---|
-| [**İplik**](https://runia0.github.io/runia0-site/en/projects/iplik.html) | Turkish quotes & proverbs app for Android | Pre-release |
-| [**Hicaz Studio**](https://runia0.github.io/runia0-site/en/projects/hicaz-studyosu.html) | Compare one melody across 8 Hicaz scales | Experiment |
-| [**runia0-site**](https://github.com/Runia0/runia0-site) | This portfolio — static, bilingual, no tracking | Live |
+<img src="assets/divider.svg" alt="" width="100%">
 
-[See all projects →](https://runia0.github.io/runia0-site/en/projects.html)
+## 🛠️ Stack
 
----
+<img src="assets/stack.svg" alt="Three.js, JavaScript, Python, HTML/CSS, Web Audio API, Capacitor, Android, Firebase, GitHub Actions, Playwright, SQLite, Roblox / Luau" width="100%">
 
-### 🛠️ Tools I work with
+## 🧭 How Runia0 works
 
-`Three.js` · `JavaScript` · `Python` · `Capacitor` · `Android` · `Firebase` · `Web Audio API` · `GitHub Actions` · `Roblox Studio / Luau`
-
+**Idea → Prototype → Test → Release.** Ship something playable early, test it in a real browser, then package it for the store.
 Runia0 openly uses AI as part of its development process; product decisions, design direction and quality control stay with the studio.
+
+<p align="center"><sub>Every project is shown with its real status — no fake stats, no placeholder links.</sub></p>

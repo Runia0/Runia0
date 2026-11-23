@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" width="640" height="420" role="img" aria-label="İplik — Turkish quotes &amp; proverbs app · offline">
+<style>.s{font-family:system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif} .m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}</style>
+<defs><clipPath id="c"><rect width="640" height="420" rx="16"/></clipPath>
+<linearGradient id="fade" x1="0" y1="0" x2="0" y2="1"><stop offset=".3" stop-color="#050807" stop-opacity="0"/><stop offset=".68" stop-color="#050807" stop-opacity=".92"/><stop offset="1" stop-color="#050807"/></linearGradient></defs>
+<g clip-path="url(#c)">
+<rect width="640" height="420" fill="#050807"/>
+<svg viewBox="0 0 1200 675" x="0" y="0" width="640" height="360" preserveAspectRatio="xMidYMid slice"><defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'><stop offset='0' stop-color='#2a0f14'/><stop offset='1' stop-color='#0d0507'/></linearGradient></defs><rect width='1200' height='675' fill='#0d0507'/><rect width='1200' height='675' fill='url(#g)'/><path d='M-20 520 C220 380 300 640 520 470 S820 160 980 300 S1160 420 1240 210' fill='none' stroke='#C94A5A' stroke-width='10' stroke-linecap='round'/><path d='M-20 560 C240 420 320 680 540 510 S840 200 1000 340 S1180 460 1240 250' fill='none' stroke='#FFF9F5' stroke-width='3' opacity='.5'/><text x='120' y='250' font-family='Georgia,serif' font-size='240' fill='#C94A5A' opacity='.9'>“</text><text x='130' y='330' font-family='Georgia,serif' font-style='italic' font-size='54' fill='#FFF9F5'>Damlaya damlaya…</text></svg>
+
+<rect width="640" height="360" fill="url(#fade)"/>
+<rect x="28" y="24" width="123" height="28" rx="14" fill="#050807" fill-opacity=".85" stroke="#ffd27a"/>
+<text x="40" y="43" class="m" font-size="14" fill="#ffd27a">PRE-RELEASE</text>
+<text x="28" y="290" class="s" font-size="38" font-weight="750" fill="#e8f2ec">İplik</text>
+<text x="28" y="328" class="s" font-size="18" fill="#cbdcd2">Turkish quotes &amp; proverbs app · offline</text>
+<rect x="28" y="372" width="95" height="26" rx="6" fill="#0b1611" stroke="#1a3326"/><text x="35" y="390" class="m" font-size="14" fill="#a3b8ab">Capacitor</text><rect x="131" y="372" width="77" height="26" rx="6" fill="#0b1611" stroke="#1a3326"/><text x="138" y="390" class="m" font-size="14" fill="#a3b8ab">Android</text>
+<rect x=".5" y=".5" width="639" height="419" rx="16" fill="none" stroke="#1a3326"/>
+</g>
+</svg>
