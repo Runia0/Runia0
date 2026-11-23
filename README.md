@@ -18,14 +18,16 @@
 
 ## 🎮 Games
 
+<p>▶ <b>Play now in your browser:</b> <a href="https://runia0.github.io/runia0-site/play/frogie/">Frogier</a> · <a href="https://runia0.github.io/runia0-site/play/shadow-protocol/">Shadow Protocol</a> · <a href="https://runia0.github.io/runia0-site/play/sokaklarin-kanunu/">Sokakların Kanunu</a> · <a href="https://runia0.github.io/runia0-site/play/night-shift/">NIGHT SHIFT</a> · <a href="https://runia0.github.io/runia0-site/play/hicaz-studyosu/">Hicaz Studio</a></p>
+
 <table>
   <tr>
-    <td width="50%"><a href="https://runia0.github.io/runia0-site/en/projects/frogie.html"><img src="assets/card-frogie.svg" alt="Frogie — 3D action-platformer with 100 levels and boss fights. Playable." width="100%"></a></td>
-    <td width="50%"><a href="https://runia0.github.io/runia0-site/en/projects/shadow-protocol.html"><img src="assets/card-shadow-protocol.svg" alt="Shadow Protocol — story-driven 3D sniper game with 5 missions. Playable." width="100%"></a></td>
+    <td width="50%"><a href="https://runia0.github.io/runia0-site/en/projects/frogie.html"><img src="assets/card-frogie.svg" alt="Frogier — 3D action-platformer with 100 levels and boss fights. Playable in the browser." width="100%"></a></td>
+    <td width="50%"><a href="https://runia0.github.io/runia0-site/en/projects/shadow-protocol.html"><img src="assets/card-shadow-protocol.svg" alt="Shadow Protocol — story-driven 3D sniper game with 5 missions. Playable in the browser." width="100%"></a></td>
   </tr>
   <tr>
-    <td width="50%"><a href="https://runia0.github.io/runia0-site/en/projects/sokaklarin-kanunu.html"><img src="assets/card-sokaklarin-kanunu.svg" alt="Sokakların Kanunu — original crime drama set in Adana with 3 endings. Playable." width="100%"></a></td>
-    <td width="50%"><a href="https://runia0.github.io/runia0-site/en/projects/night-shift.html"><img src="assets/card-night-shift.svg" alt="NIGHT SHIFT — gas station management with psychological horror. Early development." width="100%"></a></td>
+    <td width="50%"><a href="https://runia0.github.io/runia0-site/en/projects/sokaklarin-kanunu.html"><img src="assets/card-sokaklarin-kanunu.svg" alt="Sokakların Kanunu — original crime drama set in Adana with 3 endings. Playable in the browser." width="100%"></a></td>
+    <td width="50%"><a href="https://runia0.github.io/runia0-site/en/projects/night-shift.html"><img src="assets/card-night-shift.svg" alt="NIGHT SHIFT — gas station management with psychological horror. Playable in the browser." width="100%"></a></td>
   </tr>
 </table>
 
@@ -34,7 +36,7 @@
 <table>
   <tr>
     <td width="50%"><a href="https://runia0.github.io/runia0-site/en/projects/iplik.html"><img src="assets/card-iplik.svg" alt="İplik — Turkish quotes and proverbs app for Android. Pre-release." width="100%"></a></td>
-    <td width="50%"><a href="https://runia0.github.io/runia0-site/en/projects/hicaz-studyosu.html"><img src="assets/card-hicaz-studyosu.svg" alt="Hicaz Studio — one melody in eight Hicaz scales. Experiment." width="100%"></a></td>
+    <td width="50%"><a href="https://runia0.github.io/runia0-site/en/projects/hicaz-studyosu.html"><img src="assets/card-hicaz-studyosu.svg" alt="Hicaz Studio — one melody in eight Hicaz scales. Try it in the browser." width="100%"></a></td>
   </tr>
 </table>
 

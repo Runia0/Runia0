@@ -27,9 +27,10 @@ def banner():
     grid += "".join(f'<line x1="0" y1="{y}" x2="{W}" y2="{y}"/>' for y in range(0, H + 1, 40))
     lines = [
         ("$", "runia0 status", TEXT),
-        ("●", "frogie            playable", ACC),
+        ("●", "frogier           playable", ACC),
         ("●", "shadow-protocol   playable", ACC),
         ("●", "sokaklarin-kanunu playable", ACC),
+        ("●", "night-shift       playable", ACC),
         ("●", "iplik             pre-release", "#ffd27a"),
     ]
     term = "".join(
@@ -59,10 +60,10 @@ def banner():
 <text x="64" y="196" class="s" font-size="58" font-weight="750" fill="{TEXT}" letter-spacing="-1">Ideas into things that <tspan fill="{ACC}">work.</tspan></text>
 <text x="66" y="240" class="m" fill="{MUTED}">Independent by nature. Built through code.</text>
 <text x="66" y="300" class="s" font-size="17" fill="{MUTED}" letter-spacing="2">SOFTWARE  ·  ARTIFICIAL INTELLIGENCE  ·  GAMES  ·  DIGITAL PRODUCTS</text>
-<g transform="translate(880 82)">
-<rect x="-24" y="-38" width="364" height="226" rx="12" fill="#07100b" stroke="{LINE}"/>
+<g transform="translate(880 66)">
+<rect x="-24" y="-38" width="364" height="262" rx="12" fill="#07100b" stroke="{LINE}"/>
 <circle cx="-6" cy="-20" r="5" fill="{LINE}"/><circle cx="10" cy="-20" r="5" fill="{LINE}"/><circle cx="26" cy="-20" r="5" fill="{LINE}"/>
-<g transform="translate(0 20)">{term}<text x="0" y="150" class="m" fill="{ACC}">$ <tspan class="cur">▍</tspan></text></g>
+<g transform="translate(0 20)">{term}<text x="0" y="180" class="m" fill="{ACC}">$ <tspan class="cur">▍</tspan></text></g>
 </g>
 <rect x="0.5" y="0.5" width="{W-1}" height="{H-1}" rx="18" fill="none" stroke="{LINE}"/>
 </g>
@@ -70,10 +71,22 @@ def banner():
 '''
 
 
-def card(key, title, desc, status, color, tags):
+SHOTS = os.environ.get("SHOTS", "")
+
+
+def card(pid, key, title, desc, status, color, tags):
     W, H = 640, 420
-    inner = BUILDERS[key]().replace('<svg xmlns="http://www.w3.org/2000/svg"', '<svg', 1)
-    inner = inner.replace('width="1200" height="675"', 'x="0" y="0" width="640" height="360" preserveAspectRatio="xMidYMid slice"', 1)
+    shot = os.path.join(SHOTS, pid + ".jpg") if SHOTS else ""
+    if shot and os.path.exists(shot):
+        import base64, io
+        from PIL import Image
+        im = Image.open(shot).convert("RGB").resize((800, 450))
+        buf = io.BytesIO(); im.save(buf, "JPEG", quality=78, optimize=True)
+        b64 = base64.b64encode(buf.getvalue()).decode()
+        inner = f'<image href="data:image/jpeg;base64,{b64}" x="0" y="0" width="640" height="360" preserveAspectRatio="xMidYMid slice"/>'
+    else:
+        inner = BUILDERS[key]().replace('<svg xmlns="http://www.w3.org/2000/svg"', '<svg', 1)
+        inner = inner.replace('width="1200" height="675"', 'x="0" y="0" width="640" height="360" preserveAspectRatio="xMidYMid slice"', 1)
     tag_svg, x = "", 28
     for t in tags:
         w = 14 + len(t) * 9
@@ -87,7 +100,7 @@ def card(key, title, desc, status, color, tags):
 <rect width="{W}" height="{H}" fill="{BG}"/>
 {inner}
 <rect width="{W}" height="360" fill="url(#fade)"/>
-<rect x="28" y="24" width="{24 + len(status)*9}" height="28" rx="14" fill="{BG}" fill-opacity=".85" stroke="{color}"/>
+<rect x="28" y="24" width="{24 + len(status)*9}" height="28" rx="14" fill="{BG}" fill-opacity=".94" stroke="{color}"/>
 <text x="40" y="43" class="m" font-size="14" fill="{color}">{e(status)}</text>
 <text x="28" y="290" class="s" font-size="38" font-weight="750" fill="{TEXT}">{e(title)}</text>
 <text x="28" y="328" class="s" font-size="18" fill="#cbdcd2">{e(desc)}</text>
@@ -122,12 +135,12 @@ def divider():
 
 
 CARDS = [
-    ("frogie", "frogie", "Frogie", "3D action-platformer · 100 levels · bosses", "PLAYABLE", ACC, ["Three.js", "Capacitor", "Android"]),
-    ("shadow-protocol", "shadow", "Shadow Protocol", "Story-driven 3D sniper · 5 missions", "PLAYABLE", ACC, ["Three.js", "Web Audio"]),
-    ("sokaklarin-kanunu", "streets", "Sokakların Kanunu", "Original crime drama in Adana · 3 endings", "PLAYABLE", ACC, ["Three.js", "Web Audio"]),
+    ("frogie", "frogie", "Frogier", "3D action-platformer · 100 levels · bosses", "PLAY IN BROWSER", ACC, ["Three.js", "Capacitor", "Android"]),
+    ("shadow-protocol", "shadow", "Shadow Protocol", "Story-driven 3D sniper · 5 missions", "PLAY IN BROWSER", ACC, ["Three.js", "Web Audio"]),
+    ("sokaklarin-kanunu", "streets", "Sokakların Kanunu", "Original crime drama in Adana · 3 endings", "PLAY IN BROWSER", ACC, ["Three.js", "Web Audio"]),
     ("iplik", "iplik", "İplik", "Turkish quotes & proverbs app · offline", "PRE-RELEASE", "#ffd27a", ["Capacitor", "Android"]),
-    ("night-shift", "nightshift", "NIGHT SHIFT", "Gas station management + horror", "EARLY DEV", MUTED, ["Three.js"]),
-    ("hicaz-studyosu", "hicaz", "Hicaz Studio", "One melody, eight Hicaz scales", "EXPERIMENT", MUTED, ["Web Audio API"]),
+    ("night-shift", "nightshift", "NIGHT SHIFT", "Gas station management + horror", "PLAY IN BROWSER", ACC, ["Three.js"]),
+    ("hicaz-studyosu", "hicaz", "Hicaz Studio", "One melody, eight Hicaz scales", "TRY IN BROWSER", ACC, ["Web Audio API"]),
 ]
 
 if __name__ == "__main__":
@@ -137,5 +150,5 @@ if __name__ == "__main__":
     open(os.path.join(out, "stack.svg"), "w", encoding="utf-8").write(stack())
     open(os.path.join(out, "divider.svg"), "w", encoding="utf-8").write(divider())
     for pid, key, *rest in CARDS:
-        open(os.path.join(out, f"card-{pid}.svg"), "w", encoding="utf-8").write(card(key, *rest))
+        open(os.path.join(out, f"card-{pid}.svg"), "w", encoding="utf-8").write(card(pid, key, *rest))
     print("ok")
