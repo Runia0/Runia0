@@ -135,11 +135,11 @@ def divider():
 
 
 CARDS = [
-    ("frogie", "frogie", "Frogier", "3D action-platformer · 100 levels · bosses", "PLAY IN BROWSER", ACC, ["Three.js", "Capacitor", "Android"]),
-    ("shadow-protocol", "shadow", "Shadow Protocol", "Story-driven 3D sniper · 5 missions", "PLAY IN BROWSER", ACC, ["Three.js", "Web Audio"]),
-    ("sokaklarin-kanunu", "streets", "Sokakların Kanunu", "Original crime drama in Adana · 3 endings", "PLAY IN BROWSER", ACC, ["Three.js", "Web Audio"]),
+    ("frogie", "frogie", "Frogier", "3D action-platformer · 100 levels · bosses", "PLAY DEMO", ACC, ["Three.js", "Capacitor", "Android"]),
+    ("shadow-protocol", "shadow", "Shadow Protocol", "Story-driven 3D sniper · 5 missions", "PLAY DEMO", ACC, ["Three.js", "Web Audio"]),
+    ("sokaklarin-kanunu", "streets", "Sokakların Kanunu", "Original crime drama in Adana · 3 endings", "PLAY DEMO", ACC, ["Three.js", "Web Audio"]),
     ("iplik", "iplik", "İplik", "Turkish quotes & proverbs app · offline", "PRE-RELEASE", "#ffd27a", ["Capacitor", "Android"]),
-    ("night-shift", "nightshift", "NIGHT SHIFT", "Gas station management + horror", "PLAY IN BROWSER", ACC, ["Three.js"]),
+    ("night-shift", "nightshift", "NIGHT SHIFT", "Gas station management + horror", "PLAY DEMO", ACC, ["Three.js"]),
     ("hicaz-studyosu", "hicaz", "Hicaz Studio", "One melody, eight Hicaz scales", "TRY IN BROWSER", ACC, ["Web Audio API"]),
 ]
 
